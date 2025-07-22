@@ -26,5 +26,19 @@ Explores **process management** in UNIX using `fork()`, `exec()`, and `wait()`. 
 - Waits for child termination using `wait()`
 - Demonstrates simple shell behavior and command chaining
 
+# 💬 Project 3 - TCP Chat Client – C Socket Programming
+
+This project is a simple, terminal-based **TCP chat client** built in C using **POSIX sockets** and **multithreading**. It connects to a server, allows the user to send and receive messages asynchronously, and supports username identification and graceful shutdown.
+
+---
+
+## ✅ Features
+
+- Connects to a remote chat server via IP and port
+- Prompts for and sends a username to identify the client
+- Sends user-typed messages to the server
+- Receives server messages in real-time using a background thread
+- Supports clean disconnection using `/quit` command
+
 
 
